@@ -395,70 +395,69 @@
         <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls</tspan></text>
         <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
         <text x="0" y="20" class="text">
-<tspan x="0" class="output-dir">framework</tspan><tspan dx="20" class="output-dir">lang</tspan><tspan dx="20" class="output-dir">tools</tspan><tspan dx="20" class="output-file">info@me</tspan></text>
+<tspan x="0" y="20" class="output-dir">framework</tspan><tspan x="100" y="20" class="output-dir">lang</tspan><tspan x="200" y="20" class="output-dir">tools</tspan><tspan x="300" y="20" class="output-file">info@me</tspan></text>
     </g>
 
 <g transform="translate(0, 460)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> cat info@me</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text output-file">
-<tspan x="0" dy="0">Hi, I'm Mehmet Emre.</tspan>
-<tspan x="0" dy="1.4em">Graduated in Computer Programming from Kırıkkale University.</tspan>
-<tspan x="0" dy="1.4em">I build modern web systems and performance-focused applications.</tspan>
-<tspan x="0" dy="1.4em">Interested in cloud infrastructure, AI integration, and clean architecture.</tspan>
-<tspan x="0" dy="1.4em"></tspan>
-<tspan x="0" dy="1.4em">🌐 Web: <tspan class="output-dir">mehmetemrecetinkaya.com.tr</tspan></tspan>
-<tspan x="0" dy="1.4em">📧 Mail: mhmt.emrecetky@gmail.com</tspan>
+<tspan x="0" y="20">Hi, I'm Mehmet Emre.</tspan>
+<tspan x="0" y="60">Graduated in Computer Programming from Kırıkkale University.</tspan>
+<tspan x="0" y="80">I build modern web systems and performance-focused applications.</tspan>
+<tspan x="0" y="100">Interested in cloud infrastructure, AI integration, and clean architecture.</tspan>
+<tspan x="0" y="140">🌐 Web: <tspan class="output-dir">mehmetemrecetinkaya.com.tr</tspan></tspan>
+<tspan x="0" y="160">📧 Mail: mhmt.emrecetky@gmail.com</tspan>
     </text>
 </g>
 
-<g transform="translate(0, 600)">
+<g transform="translate(0, 650)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> ls -R lang/</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text">
-<tspan x="0" class="output-success">javascript</tspan>
-<tspan x="100" class="output-success">typescript</tspan>
-<tspan x="200" class="output-success">python</tspan>
-<tspan x="270" class="output-success">go</tspan>
-<tspan x="310" class="output-success">bash</tspan>
-<tspan x="360" class="output-success">html</tspan>
-<tspan x="410" class="output-success">css</tspan>
-<tspan x="450" class="output-success">sql</tspan>
-<tspan x="490" class="output-success">php</tspan>
+<tspan x="0" y="20" class="output-success">javascript</tspan>
+<tspan x="100" y="20" class="output-success">typescript</tspan>
+<tspan x="200" y="20" class="output-success">python</tspan>
+<tspan x="270" y="20" class="output-success">go</tspan>
+<tspan x="310" y="20" class="output-success">bash</tspan>
+<tspan x="360" y="20" class="output-success">html</tspan>
+<tspan x="410" y="20" class="output-success">css</tspan>
+<tspan x="450" y="20" class="output-success">sql</tspan>
+<tspan x="490" y="20" class="output-success">php</tspan>
     </text>
 </g>
 
-<g transform="translate(0, 680)">
+<g transform="translate(0, 730)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls -R framework/</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text">
-<tspan x="0" class="output-dir">react</tspan>
-<tspan x="60" class="output-dir">nextjs</tspan>
-<tspan x="130" class="output-dir">vue</tspan>
-<tspan x="180" class="output-dir">electron</tspan>
-<tspan x="260" class="output-dir">tailwindcss</tspan>
-<tspan x="370" class="output-dir">nodejs</tspan>
-<tspan x="440" class="output-dir">express</tspan>
+<tspan x="0" y="20" class="output-dir">react</tspan>
+<tspan x="60" y="20" class="output-dir">nextjs</tspan>
+<tspan x="130" y="20" class="output-dir">vue</tspan>
+<tspan x="180" y="20" class="output-dir">electron</tspan>
+<tspan x="260" y="20" class="output-dir">tailwindcss</tspan>
+<tspan x="370" y="20" class="output-dir">nodejs</tspan>
+<tspan x="440" y="20" class="output-dir">express</tspan>
     </text>
 </g>
 
-<g transform="translate(0, 760)">
+<g transform="translate(0, 810)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls -R tools/</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text">
-<tspan x="0" class="output-file">docker</tspan>
-<tspan x="70" class="output-file">git</tspan>
-<tspan x="120" class="output-file">postgresql</tspan>
-<tspan x="220" class="output-file">mysql</tspan>
-<tspan x="280" class="output-file">sqllite</tspan>
-<tspan x="350" class="output-file">linux</tspan>
-<tspan x="410" class="output-file">nginx</tspan>
-<tspan x="470" class="output-file">fish</tspan>
-<tspan x="520" class="output-file">vscode</tspan>
+<tspan x="0" y="20" class="output-file">docker</tspan>
+<tspan x="70" y="20" class="output-file">git</tspan>
+<tspan x="120" y="20" class="output-file">postgresql</tspan>
+<tspan x="220" y="20" class="output-file">mysql</tspan>
+<tspan x="280" y="20" class="output-file">sqllite</tspan>
+<tspan x="350" y="20" class="output-file">linux</tspan>
+<tspan x="410" y="20" class="output-file">nginx</tspan>
+<tspan x="470" y="20" class="output-file">fish</tspan>
+<tspan x="520" y="20" class="output-file">vscode</tspan>
     </text>
 </g>
 
-<g transform="translate(0, 840)">
+<g transform="translate(0, 890)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="cursor"> █</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
 </g>
