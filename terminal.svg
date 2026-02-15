@@ -125,72 +125,72 @@
 
   <!-- FRAME 1 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f1">
-    <tspan x="0" dy="1.2em">   </tspan>
-    <tspan x="0" dy="1.2em">    </tspan>
-    <tspan x="0" dy="1.2em">  {</tspan>
+    <tspan x="0" y="20">   </tspan>
+    <tspan x="0" y="40">    </tspan>
+    <tspan x="0" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 2 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f2">
-    <tspan x="0" dy="1.2em">    </tspan>
-    <tspan x="0" dy="1.2em">    </tspan>
-    <tspan x="0" dy="1.2em">   }</tspan>
+    <tspan x="0" y="20">    </tspan>
+    <tspan x="0" y="40">    </tspan>
+    <tspan x="0" y="60">   }</tspan>
   </text>
 
   <!-- FRAME 3 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f3">
-    <tspan x="0" dy="1.2em">  </tspan>
-    <tspan x="0" dy="1.2em">    }</tspan>
-    <tspan x="0" dy="1.2em">   {</tspan>
+    <tspan x="0" y="20">  </tspan>
+    <tspan x="0" y="40">    }</tspan>
+    <tspan x="0" y="60">   {</tspan>
   </text>
 
   <!-- FRAME 4 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f4">
-    <tspan x="0" dy="1.2em">  {</tspan>
-    <tspan x="0" dy="1.2em">   }</tspan>
-    <tspan x="0" dy="1.2em">  {</tspan>
+    <tspan x="0" y="20">  {</tspan>
+    <tspan x="0" y="40">   }</tspan>
+    <tspan x="0" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 5 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f5">
-    <tspan x="0" dy="1.2em">  {</tspan>
-    <tspan x="0" dy="1.2em">   }</tspan>
-    <tspan x="0" dy="1.2em">  {</tspan>
+    <tspan x="0" y="20">  {</tspan>
+    <tspan x="0" y="40">   }</tspan>
+    <tspan x="0" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 6 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f6">
-    <tspan x="0" dy="1.2em">  }</tspan>
-    <tspan x="0" dy="1.2em">   {</tspan>
-    <tspan x="0" dy="1.2em">  </tspan>
+    <tspan x="0" y="20">  }</tspan>
+    <tspan x="0" y="40">   {</tspan>
+    <tspan x="0" y="60">  </tspan>
   </text>
 
   <!-- FRAME 7 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f7">
-    <tspan x="0" dy="1.2em">  {</tspan>
-    <tspan x="0" dy="1.2em">   </tspan>
-    <tspan x="0" dy="1.2em">  </tspan>
+    <tspan x="0" y="20">  {</tspan>
+    <tspan x="0" y="40">   </tspan>
+    <tspan x="0" y="60">  </tspan>
   </text>
 
   <!-- FRAME 8 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f8">
-    <tspan x="0" dy="1.2em">    </tspan>
-    <tspan x="0" dy="1.2em">   </tspan>
-    <tspan x="0" dy="1.2em">      </tspan>
+    <tspan x="0" y="20">    </tspan>
+    <tspan x="0" y="40">   </tspan>
+    <tspan x="0" y="60">      </tspan>
   </text>
 
   <!-- FRAME 9 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f9">
-    <tspan x="0" dy="1.2em">    </tspan>
-    <tspan x="0" dy="1.2em">    </tspan>
-    <tspan x="0" dy="1.2em">     {</tspan>
+    <tspan x="0" y="20">    </tspan>
+    <tspan x="0" y="40">    </tspan>
+    <tspan x="0" y="60">     {</tspan>
   </text>
 
   <!-- FRAME 10 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f10">
-    <tspan x="0" dy="1.2em">     </tspan>
-    <tspan x="0" dy="1.2em">    {</tspan>
-    <tspan x="0" dy="1.2em">     }</tspan>
+    <tspan x="0" y="20">     </tspan>
+    <tspan x="0" y="40">    {</tspan>
+    <tspan x="0" y="60">     }</tspan>
   </text>
 
 </g>
@@ -201,72 +201,72 @@
 
   <!-- FRAME 1 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f1">
-    <tspan x="7" dy="1.2em">    {</tspan>
-    <tspan x="8" dy="1.2em">     }</tspan>
-    <tspan x="9" dy="1.2em">      {</tspan>
+    <tspan x="7" y="20">    {</tspan>
+    <tspan x="8" y="40">     }</tspan>
+    <tspan x="9" y="60">      {</tspan>
   </text>
 
   <!-- FRAME 2 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f2">
-    <tspan x="8" dy="1.2em">     {</tspan>
-    <tspan x="9" dy="1.2em">      }</tspan>
-    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="8" y="20">     {</tspan>
+    <tspan x="9" y="40">      }</tspan>
+    <tspan x="8" y="60">     {</tspan>
   </text>
 
   <!-- FRAME 3 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f3">
-    <tspan x="9" dy="1.2em">      {</tspan>
-    <tspan x="8" dy="1.2em">     }</tspan>
-    <tspan x="7" dy="1.2em">    {</tspan>
+    <tspan x="9" y="20">      {</tspan>
+    <tspan x="8" y="40">     }</tspan>
+    <tspan x="7" y="60">    {</tspan>
   </text>
 
   <!-- FRAME 4 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f4">
-    <tspan x="8" dy="1.2em">     {</tspan>
-    <tspan x="7" dy="1.2em">    }</tspan>
-    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="8" y="20">     {</tspan>
+    <tspan x="7" y="40">    }</tspan>
+    <tspan x="8" y="60">     {</tspan>
   </text>
 
   <!-- FRAME 5 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f5">
-    <tspan x="7" dy="1.2em">    {</tspan>
-    <tspan x="8" dy="1.2em">     }</tspan>
-    <tspan x="9" dy="1.2em">     {</tspan>
+    <tspan x="7" y="20">    {</tspan>
+    <tspan x="8" y="40">     }</tspan>
+    <tspan x="9" y="60">     {</tspan>
   </text>
 
   <!-- FRAME 6 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f6">
-    <tspan x="8" dy="1.2em">     {</tspan>
-    <tspan x="9" dy="1.2em">      {</tspan>
-    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="8" y="20">     {</tspan>
+    <tspan x="9" y="40">      {</tspan>
+    <tspan x="8" y="60">     {</tspan>
   </text>
 
   <!-- FRAME 7 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f7">
-    <tspan x="9" dy="1.2em">      {</tspan>
-    <tspan x="8" dy="1.2em">     }</tspan>
-    <tspan x="7" dy="1.2em">    {</tspan>
+    <tspan x="9" y="20">      {</tspan>
+    <tspan x="8" y="40">     }</tspan>
+    <tspan x="7" y="60">    {</tspan>
   </text>
 
   <!-- FRAME 8 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f8">
-    <tspan x="8" dy="1.2em">     {</tspan>
-    <tspan x="7" dy="1.2em">    }</tspan>
-    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="8" y="20">     {</tspan>
+    <tspan x="7" y="40">    }</tspan>
+    <tspan x="8" y="60">     {</tspan>
   </text>
 
   <!-- FRAME 9 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f9">
-    <tspan x="7" dy="1.2em">    {</tspan>
-    <tspan x="8" dy="1.2em">     }</tspan>
-    <tspan x="9" dy="1.2em">      {</tspan>
+    <tspan x="7" y="20">    {</tspan>
+    <tspan x="8" y="40">     }</tspan>
+    <tspan x="9" y="60">      {</tspan>
   </text>
 
   <!-- FRAME 10 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f10">
-    <tspan x="8" dy="1.2em">     {</tspan>
-    <tspan x="9" dy="1.2em">      }</tspan>
-    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="8" y="20">     {</tspan>
+    <tspan x="9" y="40">      }</tspan>
+    <tspan x="8" y="60">     {</tspan>
   </text>
 
 </g>
@@ -278,72 +278,72 @@
 
   <!-- FRAME 1 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f1">
-    <tspan x="50" dy="1.2em">   </tspan>
-    <tspan x="50" dy="1.2em">    </tspan>
-    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" y="20">   </tspan>
+    <tspan x="50" y="40">    </tspan>
+    <tspan x="50" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 2 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f2">
-    <tspan x="50" dy="1.2em">    </tspan>
-    <tspan x="50" dy="1.2em">    </tspan>
-    <tspan x="50" dy="1.2em">   }</tspan>
+    <tspan x="50" y="20">    </tspan>
+    <tspan x="50" y="40">    </tspan>
+    <tspan x="50" y="60">   }</tspan>
   </text>
 
   <!-- FRAME 3 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f3">
-    <tspan x="50" dy="1.2em">  </tspan>
-    <tspan x="50" dy="1.2em">    }</tspan>
-    <tspan x="50" dy="1.2em">   {</tspan>
+    <tspan x="50" y="20">  </tspan>
+    <tspan x="50" y="40">    }</tspan>
+    <tspan x="50" y="60">   {</tspan>
   </text>
 
   <!-- FRAME 4 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f4">
-    <tspan x="50" dy="1.2em">  {</tspan>
-    <tspan x="50" dy="1.2em">   }</tspan>
-    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" y="20">  {</tspan>
+    <tspan x="50" y="40">   }</tspan>
+    <tspan x="50" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 5 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f5">
-    <tspan x="50" dy="1.2em"> {</tspan>
-    <tspan x="50" dy="1.2em">  {</tspan>
-    <tspan x="50" dy="1.2em">   }</tspan>
+    <tspan x="50" y="20"> {</tspan>
+    <tspan x="50" y="40">  {</tspan>
+    <tspan x="50" y="60">   }</tspan>
   </text>
 
   <!-- FRAME 6 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f6">
-    <tspan x="50" dy="1.2em">  {</tspan>
-    <tspan x="50" dy="1.2em"> }</tspan>
-    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" y="20">  {</tspan>
+    <tspan x="50" y="40"> }</tspan>
+    <tspan x="50" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 7 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f7">
-    <tspan x="0" dy="1.2em">     {</tspan>
-    <tspan x="0" dy="1.2em">      }</tspan>
-    <tspan x="0" dy="1.2em">       {</tspan>
+    <tspan x="0" y="20">     {</tspan>
+    <tspan x="0" y="40">      }</tspan>
+    <tspan x="0" y="60">       {</tspan>
   </text>
 
   <!-- FRAME 8 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f8">
-    <tspan x="50" dy="1.2em">  </tspan>
-    <tspan x="50" dy="1.2em"> }</tspan>
-    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" y="20">  </tspan>
+    <tspan x="50" y="40"> }</tspan>
+    <tspan x="50" y="60">  {</tspan>
   </text>
 
   <!-- FRAME 9 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f9">
-     <tspan x="50" dy="1.2em">  </tspan>
-    <tspan x="50" dy="1.2em"> }</tspan>
-    <tspan x="50" dy="1.2em">  }</tspan>
+     <tspan x="50" y="20">  </tspan>
+    <tspan x="50" y="40"> }</tspan>
+    <tspan x="50" y="60">  }</tspan>
   </text>
 
   <!-- FRAME 10 -->
   <text x="0" y="0" class="text ascii-art smoke-frame f10">
-    <tspan x="50" dy="1.2em">  </tspan>
-    <tspan x="50" dy="1.2em"> {</tspan>
-    <tspan x="50" dy="1.2em">  }</tspan>
+    <tspan x="50" y="20">  </tspan>
+    <tspan x="50" y="40"> {</tspan>
+    <tspan x="50" y="60">  }</tspan>
   </text>
 
 </g>
