@@ -1,0 +1,468 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1b26;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c2240;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    .terminal-bg { fill: url(#bgGradient); }
+    .terminal-header { fill: #24283b; }
+    .circle { r: 6; }
+    .red { fill: #f7768e; }
+    .yellow { fill: #e0af68; }
+    .green { fill: #9ece6a; }
+    .text { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #a9b1d6; white-space: pre; }
+    .prompt-left { fill: #bb9af7; font-weight: bold; filter: url(#glow); }
+    .prompt-right { fill: #565f89; }
+    .command { 
+      fill: #c0caf5; 
+      text-shadow: 0 0 2px #c0caf5; 
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .command:hover {
+      fill: #7dcfff;
+      filter: url(#strongGlow);
+    }
+    .output-dir { 
+      fill: #7aa2f7; 
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .output-dir:hover {
+      fill: #9ece6a;
+      filter: url(#glow);
+    }
+    .output-file { 
+      fill: #a9b1d6;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .output-file:hover {
+      fill: #bb9af7;
+      filter: url(#glow);
+    }
+    .output-success { 
+      fill: #9ece6a;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .output-success:hover {
+      fill: #7dcfff;
+      filter: url(#glow);
+    }
+    .label { fill: #7dcfff; font-weight: bold; }
+    .value { fill: #a9b1d6; }
+    .cursor { fill: #c0caf5; animation: blink 1s step-end infinite; filter: url(#glow); }
+    .ascii-art { fill: #bb9af7; font-weight: bold; filter: url(#glow); }
+    
+   /* 10 Frame Dinamik Duman Animasyonu - Hızlandırıldı */
+.smoke-frame {
+  opacity: 0;
+  animation: smoke-cycle 10s steps(10) infinite;
+}
+
+.f1  { animation-delay: 0s; }
+.f2  { animation-delay: 1s; }
+.f3  { animation-delay: 2s; }
+.f4  { animation-delay: 3s; }
+.f5  { animation-delay: 4s; }
+.f6  { animation-delay: 5s; }
+.f7  { animation-delay: 6s; }
+.f8  { animation-delay: 7s; }
+.f9  { animation-delay: 8s; }
+.f10 { animation-delay: 9s; }
+
+
+
+    @keyframes smoke-cycle {
+      0%, 10% { opacity: 1; }
+      11%, 100% { opacity: 0; }
+    }
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <rect x="0" y="0" width="800" height="1000" rx="10" ry="10" class="terminal-bg" />
+  <path d="M0 10 C0 4 4 0 10 0 L790 0 C796 0 800 4 800 10 L800 30 L0 30 Z" class="terminal-header" />
+  
+  <circle cx="20" cy="15" class="circle red" />
+  <circle cx="40" cy="15" class="circle yellow" />
+  <circle cx="60" cy="15" class="circle green" />
+  <text x="400" y="20" text-anchor="middle" fill="#565f89" font-family="sans-serif" font-size="12">syntaxml@chrwx4coffee — fish</text>
+
+  <g transform="translate(10, 60)">
+    
+    <g transform="translate(0, 0)">
+        <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> fastfetch --logo chrwx4coffee</tspan></text>
+        <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+        
+<g transform="translate(30, 10)">
+
+  <!-- Stream 1 (Left) - Daha yumuşak dalga hareketi -->
+ <!-- Stream 1 (Left) -->
+<g transform="translate(28, 0)">
+
+  <!-- FRAME 1 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f1">
+    <tspan x="0" dy="1.2em">   </tspan>
+    <tspan x="0" dy="1.2em">    </tspan>
+    <tspan x="0" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 2 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f2">
+    <tspan x="0" dy="1.2em">    </tspan>
+    <tspan x="0" dy="1.2em">    </tspan>
+    <tspan x="0" dy="1.2em">   }</tspan>
+  </text>
+
+  <!-- FRAME 3 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f3">
+    <tspan x="0" dy="1.2em">  </tspan>
+    <tspan x="0" dy="1.2em">    }</tspan>
+    <tspan x="0" dy="1.2em">   {</tspan>
+  </text>
+
+  <!-- FRAME 4 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f4">
+    <tspan x="0" dy="1.2em">  {</tspan>
+    <tspan x="0" dy="1.2em">   }</tspan>
+    <tspan x="0" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 5 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f5">
+    <tspan x="0" dy="1.2em">  {</tspan>
+    <tspan x="0" dy="1.2em">   }</tspan>
+    <tspan x="0" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 6 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f6">
+    <tspan x="0" dy="1.2em">  }</tspan>
+    <tspan x="0" dy="1.2em">   {</tspan>
+    <tspan x="0" dy="1.2em">  </tspan>
+  </text>
+
+  <!-- FRAME 7 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f7">
+    <tspan x="0" dy="1.2em">  {</tspan>
+    <tspan x="0" dy="1.2em">   </tspan>
+    <tspan x="0" dy="1.2em">  </tspan>
+  </text>
+
+  <!-- FRAME 8 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f8">
+    <tspan x="0" dy="1.2em">    </tspan>
+    <tspan x="0" dy="1.2em">   </tspan>
+    <tspan x="0" dy="1.2em">      </tspan>
+  </text>
+
+  <!-- FRAME 9 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f9">
+    <tspan x="0" dy="1.2em">    </tspan>
+    <tspan x="0" dy="1.2em">    </tspan>
+    <tspan x="0" dy="1.2em">     {</tspan>
+  </text>
+
+  <!-- FRAME 10 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f10">
+    <tspan x="0" dy="1.2em">     </tspan>
+    <tspan x="0" dy="1.2em">    {</tspan>
+    <tspan x="0" dy="1.2em">     }</tspan>
+  </text>
+
+</g>
+
+<!-- orta  -->
+<!-- Stream 2 (Center) -->
+<g transform="translate(36, 0)">
+
+  <!-- FRAME 1 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f1">
+    <tspan x="7" dy="1.2em">    {</tspan>
+    <tspan x="8" dy="1.2em">     }</tspan>
+    <tspan x="9" dy="1.2em">      {</tspan>
+  </text>
+
+  <!-- FRAME 2 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f2">
+    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="9" dy="1.2em">      }</tspan>
+    <tspan x="8" dy="1.2em">     {</tspan>
+  </text>
+
+  <!-- FRAME 3 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f3">
+    <tspan x="9" dy="1.2em">      {</tspan>
+    <tspan x="8" dy="1.2em">     }</tspan>
+    <tspan x="7" dy="1.2em">    {</tspan>
+  </text>
+
+  <!-- FRAME 4 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f4">
+    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="7" dy="1.2em">    }</tspan>
+    <tspan x="8" dy="1.2em">     {</tspan>
+  </text>
+
+  <!-- FRAME 5 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f5">
+    <tspan x="7" dy="1.2em">    {</tspan>
+    <tspan x="8" dy="1.2em">     }</tspan>
+    <tspan x="9" dy="1.2em">     {</tspan>
+  </text>
+
+  <!-- FRAME 6 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f6">
+    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="9" dy="1.2em">      {</tspan>
+    <tspan x="8" dy="1.2em">     {</tspan>
+  </text>
+
+  <!-- FRAME 7 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f7">
+    <tspan x="9" dy="1.2em">      {</tspan>
+    <tspan x="8" dy="1.2em">     }</tspan>
+    <tspan x="7" dy="1.2em">    {</tspan>
+  </text>
+
+  <!-- FRAME 8 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f8">
+    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="7" dy="1.2em">    }</tspan>
+    <tspan x="8" dy="1.2em">     {</tspan>
+  </text>
+
+  <!-- FRAME 9 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f9">
+    <tspan x="7" dy="1.2em">    {</tspan>
+    <tspan x="8" dy="1.2em">     }</tspan>
+    <tspan x="9" dy="1.2em">      {</tspan>
+  </text>
+
+  <!-- FRAME 10 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f10">
+    <tspan x="8" dy="1.2em">     {</tspan>
+    <tspan x="9" dy="1.2em">      }</tspan>
+    <tspan x="8" dy="1.2em">     {</tspan>
+  </text>
+
+</g>
+
+
+
+<!-- en sağ kenar -->
+<g transform="translate(44, 0)">
+
+  <!-- FRAME 1 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f1">
+    <tspan x="50" dy="1.2em">   </tspan>
+    <tspan x="50" dy="1.2em">    </tspan>
+    <tspan x="50" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 2 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f2">
+    <tspan x="50" dy="1.2em">    </tspan>
+    <tspan x="50" dy="1.2em">    </tspan>
+    <tspan x="50" dy="1.2em">   }</tspan>
+  </text>
+
+  <!-- FRAME 3 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f3">
+    <tspan x="50" dy="1.2em">  </tspan>
+    <tspan x="50" dy="1.2em">    }</tspan>
+    <tspan x="50" dy="1.2em">   {</tspan>
+  </text>
+
+  <!-- FRAME 4 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f4">
+    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" dy="1.2em">   }</tspan>
+    <tspan x="50" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 5 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f5">
+    <tspan x="50" dy="1.2em"> {</tspan>
+    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" dy="1.2em">   }</tspan>
+  </text>
+
+  <!-- FRAME 6 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f6">
+    <tspan x="50" dy="1.2em">  {</tspan>
+    <tspan x="50" dy="1.2em"> }</tspan>
+    <tspan x="50" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 7 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f7">
+    <tspan x="0" dy="1.2em">     {</tspan>
+    <tspan x="0" dy="1.2em">      }</tspan>
+    <tspan x="0" dy="1.2em">       {</tspan>
+  </text>
+
+  <!-- FRAME 8 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f8">
+    <tspan x="50" dy="1.2em">  </tspan>
+    <tspan x="50" dy="1.2em"> }</tspan>
+    <tspan x="50" dy="1.2em">  {</tspan>
+  </text>
+
+  <!-- FRAME 9 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f9">
+     <tspan x="50" dy="1.2em">  </tspan>
+    <tspan x="50" dy="1.2em"> }</tspan>
+    <tspan x="50" dy="1.2em">  }</tspan>
+  </text>
+
+  <!-- FRAME 10 -->
+  <text x="0" y="0" class="text ascii-art smoke-frame f10">
+    <tspan x="50" dy="1.2em">  </tspan>
+    <tspan x="50" dy="1.2em"> {</tspan>
+    <tspan x="50" dy="1.2em">  }</tspan>
+  </text>
+
+</g>
+
+
+
+          <text x="0" y="3.6em" class="text ascii-art">
+<tspan x="0" dy="1.2em">    .-{   }   }-.</tspan>
+<tspan x="0" dy="1.2em">   (   }     {   )</tspan>
+<tspan x="0" dy="1.2em">   |`-.._____..-'|</tspan>
+<tspan x="0" dy="1.2em">   |             ;--.</tspan>
+<tspan x="0" dy="1.2em">   |            (__  \</tspan>
+<tspan x="0" dy="1.2em">   |             | )  )</tspan>
+<tspan x="0" dy="1.2em">   |             |/  /</tspan>
+<tspan x="0" dy="1.2em">   |             /  / </tspan>
+<tspan x="0" dy="1.2em">   |            (  /</tspan>
+<tspan x="0" dy="1.2em">   \             y'</tspan>
+<tspan x="0" dy="1.2em">    `-.._____..-'</tspan></text>
+
+          <g transform="translate(220, 30)">
+<text x="0" y="0" class="text">
+<tspan x="0" dy="1.2em"><tspan class="label">User:</tspan> <tspan class="value">Mehmet Emre</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Host:</tspan> <tspan class="value">chrwx4coffee</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">OS:</tspan> <tspan class="value">EndeavourOS (rolling + pain)</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">WM:</tspan> <tspan class="value">Hyprland</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Shell:</tspan> <tspan class="value">fish</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Region:</tspan> <tspan class="value">tr/ankara</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Stack:</tspan> <tspan class="value">web / cloud / ai</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Focus:</tspan> <tspan class="value">performance</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Mode:</tspan> <tspan class="value">always compiling</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">CPU:</tspan> <tspan class="value">silicon brain @ 4.2GHz (overflow error)</tspan></tspan>
+<tspan x="0" dy="1.2em"><tspan class="label">Website:</tspan> <tspan class="value">mehmetemrecetinkaya.com.tr</tspan></tspan>
+<tspan x="0" dy="2.4em">
+<tspan fill="#1a1b26">███</tspan><tspan fill="#f7768e">███</tspan><tspan fill="#9ece6a">███</tspan><tspan fill="#e0af68">███</tspan><tspan fill="#7aa2f7">███</tspan><tspan fill="#bb9af7">███</tspan><tspan fill="#7dcfff">███</tspan><tspan fill="#c0caf5">███</tspan>
+</tspan>
+</text>
+
+          </g>
+        </g>
+    </g>
+
+    <g transform="translate(0, 360)">
+        <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> pwd</tspan></text>
+        <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+        <text x="0" y="20" class="text"><tspan x="0" class="output-dir">/home/chrwx4coffee/</tspan></text>
+    </g>
+
+    <g transform="translate(0, 410)">
+        <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls</tspan></text>
+        <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+        <text x="0" y="20" class="text">
+<tspan x="0" class="output-dir">framework</tspan><tspan dx="20" class="output-dir">lang</tspan><tspan dx="20" class="output-dir">tools</tspan><tspan dx="20" class="output-file">info@me</tspan></text>
+    </g>
+
+<g transform="translate(0, 460)">
+    <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> cat info@me</tspan></text>
+    <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+    <text x="0" y="20" class="text output-file">
+<tspan x="0" dy="0">Hi, I'm Mehmet Emre.</tspan>
+<tspan x="0" dy="1.4em">Graduated in Computer Programming from Kırıkkale University.</tspan>
+<tspan x="0" dy="1.4em">I build modern web systems and performance-focused applications.</tspan>
+<tspan x="0" dy="1.4em">Interested in cloud infrastructure, AI integration, and clean architecture.</tspan>
+<tspan x="0" dy="1.4em"></tspan>
+<tspan x="0" dy="1.4em">🌐 Web: <tspan class="output-dir">mehmetemrecetinkaya.com.tr</tspan></tspan>
+<tspan x="0" dy="1.4em">📧 Mail: mhmt.emrecetky@gmail.com</tspan>
+    </text>
+</g>
+
+<g transform="translate(0, 600)">
+    <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> ls -R lang/</tspan></text>
+    <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+    <text x="0" y="20" class="text">
+<tspan x="0" class="output-success">javascript</tspan>
+<tspan dx="20" class="output-success">typescript</tspan>
+<tspan dx="20" class="output-success">python</tspan>
+<tspan dx="20" class="output-success">go</tspan>
+<tspan dx="20" class="output-success">bash</tspan>
+<tspan dx="20" class="output-success">html</tspan>
+<tspan dx="20" class="output-success">css</tspan>
+<tspan dx="20" class="output-success">sql</tspan>
+<tspan dx="20" class="output-success">php</tspan>
+    </text>
+</g>
+
+<g transform="translate(0, 680)">
+    <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls -R framework/</tspan></text>
+    <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+    <text x="0" y="20" class="text">
+<tspan x="0" class="output-dir">react</tspan>
+<tspan dx="20" class="output-dir">nextjs</tspan>
+<tspan dx="20" class="output-dir">vue</tspan>
+<tspan dx="20" class="output-dir">electron</tspan>
+<tspan dx="20" class="output-dir">tailwindcss</tspan>
+<tspan dx="20" class="output-dir">nodejs</tspan>
+<tspan dx="20" class="output-dir">express</tspan>
+    </text>
+</g>
+
+<g transform="translate(0, 760)">
+    <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls -R tools/</tspan></text>
+    <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+    <text x="0" y="20" class="text">
+<tspan x="0" class="output-file">docker</tspan>
+<tspan dx="20" class="output-file">git</tspan>
+<tspan dx="20" class="output-file">postgresql</tspan>
+<tspan dx="20" class="output-file">mysql</tspan>
+<tspan dx="20" class="output-file">sqllite</tspan>
+<tspan dx="20" class="output-file">linux</tspan>
+<tspan dx="20" class="output-file">nginx</tspan>
+<tspan dx="20" class="output-file">fish</tspan>
+<tspan dx="20" class="output-file">vscode</tspan>
+    </text>
+</g>
+
+<g transform="translate(0, 840)">
+    <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="cursor"> █</tspan></text>
+    <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
+</g>
+
+</g>
+
+</svg>
