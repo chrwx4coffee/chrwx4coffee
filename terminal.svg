@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 820" width="800" height="820">
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" style="stop-color:#1a1b26;stop-opacity:1" />
@@ -103,7 +103,7 @@
     }
   </style>
 
-  <rect x="0" y="0" width="800" height="1000" rx="10" ry="10" class="terminal-bg" />
+  <rect x="0" y="0" width="800" height="820" rx="10" ry="10" class="terminal-bg" />
   <path d="M0 10 C0 4 4 0 10 0 L790 0 C796 0 800 4 800 10 L800 30 L0 30 Z" class="terminal-header" />
   
   <circle cx="20" cy="15" class="circle red" />
@@ -395,23 +395,12 @@
         <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls</tspan></text>
         <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
         <text x="0" y="20" class="text">
-<tspan x="0" y="20" class="output-dir">framework</tspan><tspan x="100" y="20" class="output-dir">lang</tspan><tspan x="200" y="20" class="output-dir">tools</tspan><tspan x="300" y="20" class="output-file">info@me</tspan></text>
+<tspan x="0" y="20" class="output-dir">framework</tspan><tspan x="100" y="20" class="output-dir">lang</tspan><tspan x="200" y="20" class="output-dir">tools</tspan> <!-- <tspan x="300" y="20" class="output-file">info@me</tspan> --> </text>
     </g>
 
-<g transform="translate(0, 460)">
-    <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> cat info@me</tspan></text>
-    <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
-    <text x="0" y="20" class="text output-file">
-<tspan x="0" y="20">Hi, I'm Mehmet Emre.</tspan>
-<tspan x="0" y="60">Graduated in Computer Programming from Kırıkkale University.</tspan>
-<tspan x="0" y="80">I build modern web systems and performance-focused applications.</tspan>
-<tspan x="0" y="100">Interested in cloud infrastructure, AI integration, and clean architecture.</tspan>
-<tspan x="0" y="140">🌐 Web: <tspan class="output-dir">mehmetemrecetinkaya.com.tr</tspan></tspan>
-<tspan x="0" y="160">📧 Mail: mhmt.emrecetky@gmail.com</tspan>
-    </text>
-</g>
 
-<g transform="translate(0, 650)">
+
+<g transform="translate(0, 460)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> ls -R lang/</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text">
@@ -427,7 +416,7 @@
     </text>
 </g>
 
-<g transform="translate(0, 730)">
+<g transform="translate(0, 540)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls -R framework/</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text">
@@ -441,7 +430,7 @@
     </text>
 </g>
 
-<g transform="translate(0, 810)">
+<g transform="translate(0, 620)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls -R tools/</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
     <text x="0" y="20" class="text">
@@ -457,7 +446,7 @@
     </text>
 </g>
 
-<g transform="translate(0, 890)">
+<g transform="translate(0, 700)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="cursor"> █</tspan></text>
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
 </g>
