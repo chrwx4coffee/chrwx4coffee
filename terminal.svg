@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 820" width="800" height="820">
   <defs>
-    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1b26;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#2c2240;stop-opacity:1" />
-    </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
       <feMerge>
@@ -21,76 +17,74 @@
   </defs>
   
   <style>
-    .terminal-bg { fill: url(#bgGradient); }
-    .terminal-header { fill: #24283b; }
+    /* GitHub Arka Plan Rengi: #0d1117 */
+    .terminal-bg { fill: #0d1117; }
+    .terminal-header { fill: #161b22; }
     .circle { r: 6; }
-    .red { fill: #f7768e; }
-    .yellow { fill: #e0af68; }
-    .green { fill: #9ece6a; }
-    .text { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #a9b1d6; white-space: pre; }
-    .prompt-left { fill: #bb9af7; font-weight: bold; filter: url(#glow); }
-    .prompt-right { fill: #565f89; }
+    .red { fill: #f85149; }
+    .yellow { fill: #d29922; }
+    .green { fill: #3fb950; }
+    .text { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
+    .prompt-left { fill: #d2a8ff; font-weight: bold; filter: url(#glow); }
+    .prompt-right { fill: #8b949e; }
     .command { 
-      fill: #c0caf5; 
-      text-shadow: 0 0 2px #c0caf5; 
+      fill: #79c0ff; 
+      text-shadow: 0 0 2px #79c0ff; 
       cursor: pointer;
       transition: all 0.3s ease;
     }
     .command:hover {
-      fill: #7dcfff;
+      fill: #a5d6ff;
       filter: url(#strongGlow);
     }
     .output-dir { 
-      fill: #7aa2f7; 
+      fill: #58a6ff; 
       font-weight: bold;
       cursor: pointer;
       transition: all 0.3s ease;
     }
     .output-dir:hover {
-      fill: #9ece6a;
+      fill: #3fb950;
       filter: url(#glow);
     }
     .output-file { 
-      fill: #a9b1d6;
+      fill: #c9d1d9;
       cursor: pointer;
       transition: all 0.3s ease;
     }
     .output-file:hover {
-      fill: #bb9af7;
+      fill: #d2a8ff;
       filter: url(#glow);
     }
     .output-success { 
-      fill: #9ece6a;
+      fill: #3fb950;
       cursor: pointer;
       transition: all 0.3s ease;
     }
     .output-success:hover {
-      fill: #7dcfff;
+      fill: #58a6ff;
       filter: url(#glow);
     }
-    .label { fill: #7dcfff; font-weight: bold; }
-    .value { fill: #a9b1d6; }
-    .cursor { fill: #c0caf5; animation: blink 1s step-end infinite; filter: url(#glow); }
-    .ascii-art { fill: #bb9af7; font-weight: bold; filter: url(#glow); }
+    .label { fill: #79c0ff; font-weight: bold; }
+    .value { fill: #c9d1d9; }
+    .cursor { fill: #c9d1d9; animation: blink 1s step-end infinite; filter: url(#glow); }
+    .ascii-art { fill: #d2a8ff; font-weight: bold; filter: url(#glow); }
     
-   /* 10 Frame Dinamik Duman Animasyonu - Hızlandırıldı */
-.smoke-frame {
-  opacity: 0;
-  animation: smoke-cycle 10s steps(10) infinite;
-}
+    .smoke-frame {
+      opacity: 0;
+      animation: smoke-cycle 10s steps(10) infinite;
+    }
 
-.f1  { animation-delay: 0s; }
-.f2  { animation-delay: 1s; }
-.f3  { animation-delay: 2s; }
-.f4  { animation-delay: 3s; }
-.f5  { animation-delay: 4s; }
-.f6  { animation-delay: 5s; }
-.f7  { animation-delay: 6s; }
-.f8  { animation-delay: 7s; }
-.f9  { animation-delay: 8s; }
-.f10 { animation-delay: 9s; }
-
-
+    .f1  { animation-delay: 0s; }
+    .f2  { animation-delay: 1s; }
+    .f3  { animation-delay: 2s; }
+    .f4  { animation-delay: 3s; }
+    .f5  { animation-delay: 4s; }
+    .f6  { animation-delay: 5s; }
+    .f7  { animation-delay: 6s; }
+    .f8  { animation-delay: 7s; }
+    .f9  { animation-delay: 8s; }
+    .f10 { animation-delay: 9s; }
 
     @keyframes smoke-cycle {
       0%, 10% { opacity: 1; }
@@ -109,7 +103,7 @@
   <circle cx="20" cy="15" class="circle red" />
   <circle cx="40" cy="15" class="circle yellow" />
   <circle cx="60" cy="15" class="circle green" />
-  <text x="400" y="20" text-anchor="middle" fill="#565f89" font-family="sans-serif" font-size="12">syntaxml@chrwx4coffee — fish</text>
+  <text x="400" y="20" text-anchor="middle" fill="#8b949e" font-family="sans-serif" font-size="12">syntaxml@chrwx4coffee — fish</text>
 
   <g transform="translate(10, 60)">
     
@@ -119,236 +113,43 @@
         
 <g transform="translate(30, 10)">
 
-  <!-- Stream 1 (Left) - Daha yumuşak dalga hareketi -->
- <!-- Stream 1 (Left) -->
 <g transform="translate(28, 0)">
-
-  <!-- FRAME 1 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f1">
-    <tspan x="0" y="20">   </tspan>
-    <tspan x="0" y="40">    </tspan>
-    <tspan x="0" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 2 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f2">
-    <tspan x="0" y="20">    </tspan>
-    <tspan x="0" y="40">    </tspan>
-    <tspan x="0" y="60">   }</tspan>
-  </text>
-
-  <!-- FRAME 3 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f3">
-    <tspan x="0" y="20">  </tspan>
-    <tspan x="0" y="40">    }</tspan>
-    <tspan x="0" y="60">   {</tspan>
-  </text>
-
-  <!-- FRAME 4 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f4">
-    <tspan x="0" y="20">  {</tspan>
-    <tspan x="0" y="40">   }</tspan>
-    <tspan x="0" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 5 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f5">
-    <tspan x="0" y="20">  {</tspan>
-    <tspan x="0" y="40">   }</tspan>
-    <tspan x="0" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 6 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f6">
-    <tspan x="0" y="20">  }</tspan>
-    <tspan x="0" y="40">   {</tspan>
-    <tspan x="0" y="60">  </tspan>
-  </text>
-
-  <!-- FRAME 7 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f7">
-    <tspan x="0" y="20">  {</tspan>
-    <tspan x="0" y="40">   </tspan>
-    <tspan x="0" y="60">  </tspan>
-  </text>
-
-  <!-- FRAME 8 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f8">
-    <tspan x="0" y="20">    </tspan>
-    <tspan x="0" y="40">   </tspan>
-    <tspan x="0" y="60">      </tspan>
-  </text>
-
-  <!-- FRAME 9 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f9">
-    <tspan x="0" y="20">    </tspan>
-    <tspan x="0" y="40">    </tspan>
-    <tspan x="0" y="60">     {</tspan>
-  </text>
-
-  <!-- FRAME 10 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f10">
-    <tspan x="0" y="20">     </tspan>
-    <tspan x="0" y="40">    {</tspan>
-    <tspan x="0" y="60">     }</tspan>
-  </text>
-
+  <text x="0" y="0" class="text ascii-art smoke-frame f1"><tspan x="0" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f2"><tspan x="0" y="60">   }</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f3"><tspan x="0" y="40">    }</tspan><tspan x="0" y="60">   {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f4"><tspan x="0" y="20">  {</tspan><tspan x="0" y="40">   }</tspan><tspan x="0" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f5"><tspan x="0" y="20">  {</tspan><tspan x="0" y="40">   }</tspan><tspan x="0" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f6"><tspan x="0" y="20">  }</tspan><tspan x="0" y="40">   {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f7"><tspan x="0" y="20">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f9"><tspan x="0" y="60">     {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f10"><tspan x="0" y="40">    {</tspan><tspan x="0" y="60">     }</tspan></text>
 </g>
 
-<!-- orta  -->
-<!-- Stream 2 (Center) -->
 <g transform="translate(36, 0)">
-
-  <!-- FRAME 1 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f1">
-    <tspan x="7" y="20">    {</tspan>
-    <tspan x="8" y="40">     }</tspan>
-    <tspan x="9" y="60">      {</tspan>
-  </text>
-
-  <!-- FRAME 2 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f2">
-    <tspan x="8" y="20">     {</tspan>
-    <tspan x="9" y="40">      }</tspan>
-    <tspan x="8" y="60">     {</tspan>
-  </text>
-
-  <!-- FRAME 3 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f3">
-    <tspan x="9" y="20">      {</tspan>
-    <tspan x="8" y="40">     }</tspan>
-    <tspan x="7" y="60">    {</tspan>
-  </text>
-
-  <!-- FRAME 4 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f4">
-    <tspan x="8" y="20">     {</tspan>
-    <tspan x="7" y="40">    }</tspan>
-    <tspan x="8" y="60">     {</tspan>
-  </text>
-
-  <!-- FRAME 5 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f5">
-    <tspan x="7" y="20">    {</tspan>
-    <tspan x="8" y="40">     }</tspan>
-    <tspan x="9" y="60">     {</tspan>
-  </text>
-
-  <!-- FRAME 6 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f6">
-    <tspan x="8" y="20">     {</tspan>
-    <tspan x="9" y="40">      {</tspan>
-    <tspan x="8" y="60">     {</tspan>
-  </text>
-
-  <!-- FRAME 7 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f7">
-    <tspan x="9" y="20">      {</tspan>
-    <tspan x="8" y="40">     }</tspan>
-    <tspan x="7" y="60">    {</tspan>
-  </text>
-
-  <!-- FRAME 8 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f8">
-    <tspan x="8" y="20">     {</tspan>
-    <tspan x="7" y="40">    }</tspan>
-    <tspan x="8" y="60">     {</tspan>
-  </text>
-
-  <!-- FRAME 9 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f9">
-    <tspan x="7" y="20">    {</tspan>
-    <tspan x="8" y="40">     }</tspan>
-    <tspan x="9" y="60">      {</tspan>
-  </text>
-
-  <!-- FRAME 10 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f10">
-    <tspan x="8" y="20">     {</tspan>
-    <tspan x="9" y="40">      }</tspan>
-    <tspan x="8" y="60">     {</tspan>
-  </text>
-
+  <text x="0" y="0" class="text ascii-art smoke-frame f1"><tspan x="7" y="20">    {</tspan><tspan x="8" y="40">     }</tspan><tspan x="9" y="60">      {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f2"><tspan x="8" y="20">     {</tspan><tspan x="9" y="40">      }</tspan><tspan x="8" y="60">     {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f3"><tspan x="9" y="20">      {</tspan><tspan x="8" y="40">     }</tspan><tspan x="7" y="60">    {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f4"><tspan x="8" y="20">     {</tspan><tspan x="7" y="40">    }</tspan><tspan x="8" y="60">     {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f5"><tspan x="7" y="20">    {</tspan><tspan x="8" y="40">     }</tspan><tspan x="9" y="60">     {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f6"><tspan x="8" y="20">     {</tspan><tspan x="9" y="40">      {</tspan><tspan x="8" y="60">     {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f7"><tspan x="9" y="20">      {</tspan><tspan x="8" y="40">     }</tspan><tspan x="7" y="60">    {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f8"><tspan x="8" y="20">     {</tspan><tspan x="7" y="40">    }</tspan><tspan x="8" y="60">     {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f9"><tspan x="7" y="20">    {</tspan><tspan x="8" y="40">     }</tspan><tspan x="9" y="60">      {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f10"><tspan x="8" y="20">     {</tspan><tspan x="9" y="40">      }</tspan><tspan x="8" y="60">     {</tspan></text>
 </g>
 
-
-
-<!-- en sağ kenar -->
 <g transform="translate(44, 0)">
-
-  <!-- FRAME 1 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f1">
-    <tspan x="50" y="20">   </tspan>
-    <tspan x="50" y="40">    </tspan>
-    <tspan x="50" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 2 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f2">
-    <tspan x="50" y="20">    </tspan>
-    <tspan x="50" y="40">    </tspan>
-    <tspan x="50" y="60">   }</tspan>
-  </text>
-
-  <!-- FRAME 3 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f3">
-    <tspan x="50" y="20">  </tspan>
-    <tspan x="50" y="40">    }</tspan>
-    <tspan x="50" y="60">   {</tspan>
-  </text>
-
-  <!-- FRAME 4 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f4">
-    <tspan x="50" y="20">  {</tspan>
-    <tspan x="50" y="40">   }</tspan>
-    <tspan x="50" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 5 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f5">
-    <tspan x="50" y="20"> {</tspan>
-    <tspan x="50" y="40">  {</tspan>
-    <tspan x="50" y="60">   }</tspan>
-  </text>
-
-  <!-- FRAME 6 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f6">
-    <tspan x="50" y="20">  {</tspan>
-    <tspan x="50" y="40"> }</tspan>
-    <tspan x="50" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 7 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f7">
-    <tspan x="0" y="20">     {</tspan>
-    <tspan x="0" y="40">      }</tspan>
-    <tspan x="0" y="60">       {</tspan>
-  </text>
-
-  <!-- FRAME 8 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f8">
-    <tspan x="50" y="20">  </tspan>
-    <tspan x="50" y="40"> }</tspan>
-    <tspan x="50" y="60">  {</tspan>
-  </text>
-
-  <!-- FRAME 9 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f9">
-     <tspan x="50" y="20">  </tspan>
-    <tspan x="50" y="40"> }</tspan>
-    <tspan x="50" y="60">  }</tspan>
-  </text>
-
-  <!-- FRAME 10 -->
-  <text x="0" y="0" class="text ascii-art smoke-frame f10">
-    <tspan x="50" y="20">  </tspan>
-    <tspan x="50" y="40"> {</tspan>
-    <tspan x="50" y="60">  }</tspan>
-  </text>
-
+  <text x="0" y="0" class="text ascii-art smoke-frame f1"><tspan x="50" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f2"><tspan x="50" y="60">   }</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f3"><tspan x="50" y="40">    }</tspan><tspan x="50" y="60">   {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f4"><tspan x="50" y="20">  {</tspan><tspan x="50" y="40">   }</tspan><tspan x="50" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f5"><tspan x="50" y="20"> {</tspan><tspan x="50" y="40">  {</tspan><tspan x="50" y="60">   }</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f6"><tspan x="50" y="20">  {</tspan><tspan x="50" y="40"> }</tspan><tspan x="50" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f7"><tspan x="0" y="20">     {</tspan><tspan x="0" y="40">      }</tspan><tspan x="0" y="60">       {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f8"><tspan x="50" y="40"> }</tspan><tspan x="50" y="60">  {</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f9"><tspan x="50" y="40"> }</tspan><tspan x="50" y="60">  }</tspan></text>
+  <text x="0" y="0" class="text ascii-art smoke-frame f10"><tspan x="50" y="40"> {</tspan><tspan x="50" y="60">  }</tspan></text>
 </g>
-
-
 
           <text x="0" y="80" class="text ascii-art">
 <tspan x="0" y="80">    .-{   }   }-.</tspan>
@@ -377,10 +178,9 @@
 <tspan x="0" y="200"><tspan class="label">CPU:</tspan> <tspan class="value">silicon brain @ 4.2GHz (overflow error)</tspan></tspan>
 <tspan x="0" y="220"><tspan class="label">Website:</tspan> <tspan class="value">mehmetemrecetinkaya.com.tr</tspan></tspan>
 <tspan x="0" y="260">
-<tspan fill="#1a1b26">███</tspan><tspan fill="#f7768e">███</tspan><tspan fill="#9ece6a">███</tspan><tspan fill="#e0af68">███</tspan><tspan fill="#7aa2f7">███</tspan><tspan fill="#bb9af7">███</tspan><tspan fill="#7dcfff">███</tspan><tspan fill="#c0caf5">███</tspan>
+<tspan fill="#161b22">███</tspan><tspan fill="#f85149">███</tspan><tspan fill="#3fb950">███</tspan><tspan fill="#d29922">███</tspan><tspan fill="#58a6ff">███</tspan><tspan fill="#bc8cff">███</tspan><tspan fill="#39d353">███</tspan><tspan fill="#c9d1d9">███</tspan>
 </tspan>
 </text>
-
           </g>
         </g>
     </g>
@@ -395,10 +195,8 @@
         <text x="0" y="0" class="text"><tspan x="0" class="prompt-left">◄ 0s ◎</tspan><tspan class="command"> ls</tspan></text>
         <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
         <text x="0" y="20" class="text">
-<tspan x="0" y="20" class="output-dir">framework</tspan><tspan x="100" y="20" class="output-dir">lang</tspan><tspan x="160" y="20" class="output-dir">tools</tspan> <!-- <tspan x="300" y="20" class="output-file">info@me</tspan> --> </text>
+<tspan x="0" y="20" class="output-dir">framework</tspan><tspan x="100" y="20" class="output-dir">lang</tspan><tspan x="160" y="20" class="output-dir">tools</tspan> </text>
     </g>
-
-
 
 <g transform="translate(0, 460)">
     <text x="0" y="0" class="text"><tspan x="0" class="prompt-left" style="filter: none;">◄ 0s ◎</tspan><tspan class="command" style="filter: none; text-shadow: none;"> ls -R lang/</tspan></text>
@@ -451,7 +249,7 @@
     <text x="780" y="0" text-anchor="end" class="text prompt-right">/ 58% ☕ 24:61</text>
 </g>
 
-</g>
+
 <!-- 
                         
             :~%@~~            
@@ -476,4 +274,8 @@
 
  -->
 
+
+
+
+</g>
 </svg>
