@@ -72,19 +72,19 @@
     
     .smoke-frame {
       opacity: 0;
-      animation: smoke-cycle 10s steps(10) infinite;
+      animation: smoke-cycle 5s steps(10) infinite;
     }
 
     .f1  { animation-delay: 0s; }
-    .f2  { animation-delay: 1s; }
-    .f3  { animation-delay: 2s; }
-    .f4  { animation-delay: 3s; }
-    .f5  { animation-delay: 4s; }
-    .f6  { animation-delay: 5s; }
-    .f7  { animation-delay: 6s; }
-    .f8  { animation-delay: 7s; }
-    .f9  { animation-delay: 8s; }
-    .f10 { animation-delay: 9s; }
+    .f2  { animation-delay: 0.5s; }
+    .f3  { animation-delay: 1s; }
+    .f4  { animation-delay: 1.5s; }
+    .f5  { animation-delay: 2s; }
+    .f6  { animation-delay: 2.5s; }
+    .f7  { animation-delay: 3s; }
+    .f8  { animation-delay: 3.5s; }
+    .f9  { animation-delay: 4s; }
+    .f10 { animation-delay: 4.5s; }
 
     @keyframes smoke-cycle {
       0%, 10% { opacity: 1; }
